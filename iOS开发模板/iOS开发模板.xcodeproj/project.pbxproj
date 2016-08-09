@@ -25,6 +25,7 @@
 		EC70CB901D5994830033E21E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EC70CB7D1D5994830033E21E /* AFURLRequestSerialization.m */; };
 		EC70CB911D5994830033E21E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EC70CB7F1D5994830033E21E /* AFURLResponseSerialization.m */; };
 		EC70CB921D5994830033E21E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC70CB811D5994830033E21E /* AFURLSessionManager.m */; };
+		EC70CBB21D599B9C0033E21E /* HHTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EC70CBB11D599B9C0033E21E /* HHTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		EC70CB7F1D5994830033E21E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		EC70CB801D5994830033E21E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		EC70CB811D5994830033E21E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		EC70CBB01D599B9C0033E21E /* HHTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTools.h; sourceTree = "<group>"; };
+		EC70CBB11D599B9C0033E21E /* HHTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +183,8 @@
 		EC70CB6A1D5994830033E21E /* 工具类 */ = {
 			isa = PBXGroup;
 			children = (
+				EC70CBB01D599B9C0033E21E /* HHTools.h */,
+				EC70CBB11D599B9C0033E21E /* HHTools.m */,
 			);
 			path = "工具类";
 			sourceTree = "<group>";
@@ -425,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC70CB3C1D5994580033E21E /* ViewController.m in Sources */,
+				EC70CBB21D599B9C0033E21E /* HHTools.m in Sources */,
 				EC70CB8E1D5994830033E21E /* AFSecurityPolicy.m in Sources */,
 				EC70CB391D5994580033E21E /* AppDelegate.m in Sources */,
 				EC70CB8B1D5994830033E21E /* AFHTTPRequestOperationManager.m in Sources */,
