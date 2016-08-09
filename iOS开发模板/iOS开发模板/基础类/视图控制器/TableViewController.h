@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  iOS开发模板
 //
 //  Created by 黄栋梁 on 16/8/9.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ViewControllerConfig.h"
 
-@interface ViewController : UIViewController
-
+@interface TableViewController : UITableViewController
 
 @end
-

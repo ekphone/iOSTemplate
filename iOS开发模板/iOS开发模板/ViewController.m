@@ -18,15 +18,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    Manager *m = [Manager sharedInstance];
-    NSLog(@"%@",m);
+    [[ViewControllerConfig sharedInstance]configViewController:self];
+    
     
     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @end

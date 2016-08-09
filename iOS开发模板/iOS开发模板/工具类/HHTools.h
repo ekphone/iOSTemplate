@@ -6,8 +6,10 @@
 //  Copyright © 2016年 黄栋梁. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface HHTools : NSObject
+
+
 
 @end

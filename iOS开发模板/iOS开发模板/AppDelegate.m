@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FirstViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[FirstViewController new]];
+    self.window.backgroundColor = [UIColor whiteColor];
     
     return YES;
 }
