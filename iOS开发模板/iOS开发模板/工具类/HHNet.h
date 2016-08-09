@@ -6,9 +6,22 @@
 //  Copyright © 2016年 黄栋梁. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "SingletonObject.h"
 #import "AFNetworking.h"
 
-@interface HHNet : NSObject
+@interface HHNet : SingletonObject
+
+/**
+ *  下载,上传,封装AFNetWorking
+ */
+
+-(void)GET:(NSString *)url parameters:(id)parameters success:(void (^)(AFHTTPRequestOperation *, id))success failure:(void (^)(AFHTTPRequestOperation *, NSError *))failure;
+
+
+-(void)POST:(NSString *)URLString parameters:(id)parameters success:(void (^)(AFHTTPRequestOperation *, id))success failure:(void (^)(AFHTTPRequestOperation *, NSError *))failure;
+
+-(void)POST:(NSString *)URLString parameters:(id)parameters constructingBodyWithBlock:(void (^)(id<AFMultipartFormData>))block success:(void (^)(AFHTTPRequestOperation *, id))success failure:(void (^)(AFHTTPRequestOperation *, NSError *))failure;
+
+
 
 @end

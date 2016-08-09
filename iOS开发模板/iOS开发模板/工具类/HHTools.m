@@ -10,4 +10,9 @@
 
 @implementation HHTools
 
+-(void)showWarning:(NSString *)warning
+{
+    
+}
+
 @end
