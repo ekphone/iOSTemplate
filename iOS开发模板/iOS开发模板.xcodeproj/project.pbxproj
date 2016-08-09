@@ -26,6 +26,7 @@
 		EC70CB911D5994830033E21E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EC70CB7F1D5994830033E21E /* AFURLResponseSerialization.m */; };
 		EC70CB921D5994830033E21E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC70CB811D5994830033E21E /* AFURLSessionManager.m */; };
 		EC70CBB21D599B9C0033E21E /* HHTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EC70CBB11D599B9C0033E21E /* HHTools.m */; };
+		EC70CBB71D599C8A0033E21E /* SingletonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EC70CBB61D599C8A0033E21E /* SingletonObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,8 @@
 		EC70CB811D5994830033E21E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		EC70CBB01D599B9C0033E21E /* HHTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTools.h; sourceTree = "<group>"; };
 		EC70CBB11D599B9C0033E21E /* HHTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTools.m; sourceTree = "<group>"; };
+		EC70CBB51D599C8A0033E21E /* SingletonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonObject.h; sourceTree = "<group>"; };
+		EC70CBB61D599C8A0033E21E /* SingletonObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,7 @@
 		EC70CB331D5994580033E21E /* iOS开发模板 */ = {
 			isa = PBXGroup;
 			children = (
+				EC70CBB81D599D3E0033E21E /* 测试 */,
 				EC70CB6A1D5994830033E21E /* 工具类 */,
 				EC70CB6B1D5994830033E21E /* 基础类 */,
 				EC70CB6D1D5994830033E21E /* 开源库 */,
@@ -192,6 +196,7 @@
 		EC70CB6B1D5994830033E21E /* 基础类 */ = {
 			isa = PBXGroup;
 			children = (
+				EC70CBB31D599C720033E21E /* 其它 */,
 				EC70CB6C1D5994830033E21E /* 视图控制器 */,
 			);
 			path = "基础类";
@@ -297,6 +302,22 @@
 			children = (
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		EC70CBB31D599C720033E21E /* 其它 */ = {
+			isa = PBXGroup;
+			children = (
+				EC70CBB51D599C8A0033E21E /* SingletonObject.h */,
+				EC70CBB61D599C8A0033E21E /* SingletonObject.m */,
+			);
+			path = "其它";
+			sourceTree = "<group>";
+		};
+		EC70CBB81D599D3E0033E21E /* 测试 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "测试";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,6 +456,7 @@
 				EC70CB391D5994580033E21E /* AppDelegate.m in Sources */,
 				EC70CB8B1D5994830033E21E /* AFHTTPRequestOperationManager.m in Sources */,
 				EC70CB8F1D5994830033E21E /* AFURLConnectionOperation.m in Sources */,
+				EC70CBB71D599C8A0033E21E /* SingletonObject.m in Sources */,
 				EC70CB8A1D5994830033E21E /* AFHTTPRequestOperation.m in Sources */,
 				EC70CB361D5994580033E21E /* main.m in Sources */,
 				EC70CB901D5994830033E21E /* AFURLRequestSerialization.m in Sources */,
