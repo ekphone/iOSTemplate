@@ -81,6 +81,14 @@
 		ECE6823D1D59B6A8000F1041 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE6822F1D59B6A8000F1041 /* SVIndefiniteAnimatedView.m */; };
 		ECE6823E1D59B6A8000F1041 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ECE682301D59B6A8000F1041 /* SVProgressHUD.bundle */; };
 		ECE6823F1D59B6A8000F1041 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE682321D59B6A8000F1041 /* SVProgressHUD.m */; };
+		ECE682471D5D99F0000F1041 /* SSKeychain.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECE682411D5D99F0000F1041 /* SSKeychain.strings */; };
+		ECE682481D5D99F0000F1041 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE682441D5D99F0000F1041 /* SSKeychain.m */; };
+		ECE682491D5D99F0000F1041 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE682461D5D99F0000F1041 /* SSKeychainQuery.m */; };
+		ECE6824F1D5D9A2B000F1041 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE6824C1D5D9A2B000F1041 /* NSData+Base64.m */; };
+		ECE682501D5D9A2B000F1041 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE6824E1D5D9A2B000F1041 /* NSString+Base64.m */; };
+		ECE682561D5D9A64000F1041 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE682531D5D9A64000F1041 /* NSString+MD5Addition.m */; };
+		ECE682571D5D9A64000F1041 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE682551D5D9A64000F1041 /* UIDevice+IdentifierAddition.m */; };
+		ECE6825B1D5D9AB5000F1041 /* UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE6825A1D5D9AB5000F1041 /* UUID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -247,6 +255,21 @@
 		ECE682301D59B6A8000F1041 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		ECE682311D59B6A8000F1041 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		ECE682321D59B6A8000F1041 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		ECE682421D5D99F0000F1041 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SSKeychain.strings; sourceTree = "<group>"; };
+		ECE682431D5D99F0000F1041 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		ECE682441D5D99F0000F1041 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		ECE682451D5D99F0000F1041 /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
+		ECE682461D5D99F0000F1041 /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
+		ECE6824B1D5D9A2B000F1041 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		ECE6824C1D5D9A2B000F1041 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		ECE6824D1D5D9A2B000F1041 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		ECE6824E1D5D9A2B000F1041 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		ECE682521D5D9A64000F1041 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		ECE682531D5D9A64000F1041 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		ECE682541D5D9A64000F1041 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
+		ECE682551D5D9A64000F1041 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		ECE682591D5D9AB5000F1041 /* UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUID.h; sourceTree = "<group>"; };
+		ECE6825A1D5D9AB5000F1041 /* UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUID.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -490,6 +513,10 @@
 		EC70CB6D1D5994830033E21E /* 开源库 */ = {
 			isa = PBXGroup;
 			children = (
+				ECE682581D5D9AB5000F1041 /* UUID */,
+				ECE682511D5D9A64000F1041 /* MD5 */,
+				ECE6824A1D5D9A2B000F1041 /* Base64 */,
+				ECE682401D5D99F0000F1041 /* SSKeychain */,
 				ECE682131D59B6A8000F1041 /* Masonry */,
 				ECE6822D1D59B6A8000F1041 /* SVProgressHUD */,
 				EC2124731D599FB4004A00D8 /* SDWebImage */,
@@ -654,6 +681,49 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
+		ECE682401D5D99F0000F1041 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				ECE682411D5D99F0000F1041 /* SSKeychain.strings */,
+				ECE682431D5D99F0000F1041 /* SSKeychain.h */,
+				ECE682441D5D99F0000F1041 /* SSKeychain.m */,
+				ECE682451D5D99F0000F1041 /* SSKeychainQuery.h */,
+				ECE682461D5D99F0000F1041 /* SSKeychainQuery.m */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		ECE6824A1D5D9A2B000F1041 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				ECE6824B1D5D9A2B000F1041 /* NSData+Base64.h */,
+				ECE6824C1D5D9A2B000F1041 /* NSData+Base64.m */,
+				ECE6824D1D5D9A2B000F1041 /* NSString+Base64.h */,
+				ECE6824E1D5D9A2B000F1041 /* NSString+Base64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		ECE682511D5D9A64000F1041 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				ECE682521D5D9A64000F1041 /* NSString+MD5Addition.h */,
+				ECE682531D5D9A64000F1041 /* NSString+MD5Addition.m */,
+				ECE682541D5D9A64000F1041 /* UIDevice+IdentifierAddition.h */,
+				ECE682551D5D9A64000F1041 /* UIDevice+IdentifierAddition.m */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
+		ECE682581D5D9AB5000F1041 /* UUID */ = {
+			isa = PBXGroup;
+			children = (
+				ECE682591D5D9AB5000F1041 /* UUID.h */,
+				ECE6825A1D5D9AB5000F1041 /* UUID.m */,
+			);
+			path = UUID;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -759,6 +829,7 @@
 			files = (
 				EC70CB471D5994580033E21E /* LaunchScreen.storyboard in Resources */,
 				ECE681F71D59A1DF000F1041 /* BaseTableViewController.xib in Resources */,
+				ECE682471D5D99F0000F1041 /* SSKeychain.strings in Resources */,
 				EC2124A31D59A16A004A00D8 /* BaseViewController.xib in Resources */,
 				ECE6823E1D59B6A8000F1041 /* SVProgressHUD.bundle in Resources */,
 				ECE681FC1D59A1EA000F1041 /* TableViewController.xib in Resources */,
@@ -802,13 +873,17 @@
 				EC21244E1D599EF8004A00D8 /* BaseModel.m in Sources */,
 				ECE682331D59B6A8000F1041 /* MASCompositeConstraint.m in Sources */,
 				EC70CB8E1D5994830033E21E /* AFSecurityPolicy.m in Sources */,
+				ECE682481D5D99F0000F1041 /* SSKeychain.m in Sources */,
 				ECE681FB1D59A1EA000F1041 /* TableViewController.m in Sources */,
 				EC70CB391D5994580033E21E /* AppDelegate.m in Sources */,
 				EC2124931D599FB4004A00D8 /* SDWebImageCompat.m in Sources */,
+				ECE6824F1D5D9A2B000F1041 /* NSData+Base64.m in Sources */,
 				ECE6823D1D59B6A8000F1041 /* SVIndefiniteAnimatedView.m in Sources */,
 				ECE6823F1D59B6A8000F1041 /* SVProgressHUD.m in Sources */,
+				ECE682501D5D9A2B000F1041 /* NSString+Base64.m in Sources */,
 				EC70CB8B1D5994830033E21E /* AFHTTPRequestOperationManager.m in Sources */,
 				EC21249C1D599FB4004A00D8 /* UIImageView+HighlightedWebCache.m in Sources */,
+				ECE6825B1D5D9AB5000F1041 /* UUID.m in Sources */,
 				EC2124701D599F2F004A00D8 /* JSONModel+networking.m in Sources */,
 				EC2124941D599FB4004A00D8 /* SDWebImageDecoder.m in Sources */,
 				EC70CB8F1D5994830033E21E /* AFURLConnectionOperation.m in Sources */,
@@ -832,8 +907,11 @@
 				ECE6823B1D59B6A8000F1041 /* View+MASAdditions.m in Sources */,
 				EC70CB8D1D5994830033E21E /* AFNetworkReachabilityManager.m in Sources */,
 				ECE682341D59B6A8000F1041 /* MASConstraint.m in Sources */,
+				ECE682561D5D9A64000F1041 /* NSString+MD5Addition.m in Sources */,
+				ECE682491D5D99F0000F1041 /* SSKeychainQuery.m in Sources */,
 				EC2124911D599FB4004A00D8 /* NSData+ImageContentType.m in Sources */,
 				EC2124991D599FB4004A00D8 /* UIButton+WebCache.m in Sources */,
+				ECE682571D5D9A64000F1041 /* UIDevice+IdentifierAddition.m in Sources */,
 				EC70CB911D5994830033E21E /* AFURLResponseSerialization.m in Sources */,
 				EC2124711D599F2F004A00D8 /* JSONKeyMapper.m in Sources */,
 				EC21249A1D599FB4004A00D8 /* UIImage+GIF.m in Sources */,
@@ -898,6 +976,14 @@
 				EC70CB461D5994580033E21E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ECE682411D5D99F0000F1041 /* SSKeychain.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE682421D5D99F0000F1041 /* en */,
+			);
+			name = SSKeychain.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

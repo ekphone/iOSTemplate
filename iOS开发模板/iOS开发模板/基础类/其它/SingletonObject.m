@@ -13,9 +13,13 @@
 +(instancetype)sharedInstance
 {
     static id _s = nil;
-    if (!_s) {
-        _s = [[self alloc]init];
-    }
+    
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        if (!_s) {
+            _s = [[self alloc]init];
+        }
+    });
     return _s;
 }
 
